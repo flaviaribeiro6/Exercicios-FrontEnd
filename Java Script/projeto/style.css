@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #ff61a6;
+}
+
+/* Seção de Introdução */
+#intro {
+    background: linear-gradient(135deg, #ff61a6, #ff9a8b);
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+#intro .intro-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#intro h1 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+#intro p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    background-color: #ff61a6;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #ff4081;
+}
+
+/* Seção de Produtos */
+#produtos {
+    background-color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.product-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.product-card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.product-card h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.product-card p {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+.btn-secondary {
+    background-color: #333;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: #ff61a6;
+}
+
+/* Seção de Dicas */
+#dicas {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#dicas ul {
+    list-style: none;
+}
+
+#dicas ul li {
+    margin: 15px 0;
+}
+
+#dicas ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+#dicas ul li a:hover {
+    color: #ff61a6;
+}
+
+/* Seção de Contato */
+#contato {
+    background-color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#form-contato input,
+#form-contato textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border 0.3s ease;
+}
+
+#form-contato textarea {
+    height: 150px;
+}
+
+#form-contato button {
+    background-color: #ff61a6;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#form-contato button:hover {
+    background-color: #ff4081;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    padding}
